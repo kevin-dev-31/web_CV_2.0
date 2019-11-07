@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">	
+	<title>test cv</title>
+	<meta name="description" content="" />
+	
+	<link rel="stylesheet" type="text/css" href="scroll/jquery.multiscroll.css" />		
+	<link rel="stylesheet" type="text/css" href="examples.css" />		
+
+</head>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="un"><a href="#un">-- 1 --</a></li>
+	<li data-menuanchor="deux"><a href="#deux">-- 2 --</a></li>
+	<li data-menuanchor="trois"><a href="#trois">-- 3 --</a></li>
+	<li data-menuanchor="quatre"><a href="#quatre">-- 4 --</a></li>
+	<li data-menuanchor="cinque"><a href="#cinque">-- 5 --</a></li>
+	<li data-menuanchor="six"><a href="#six">-- 6 --</a></li>
+</ul>
+
+<div id="myContainer">
+
+
+	<div class="ms-left">
+		<div class="ms-section" id="left1">
+			<h2>ricou kévin</h2>
+			<h1>Développeur web</h1>
+		</div>
+
+		<div class="ms-section" id="left2">
+			<h1>Left 2 </h1>
+		</div>
+
+		<div class="ms-section" id="left3">
+			<h1>Left 3</h1>
+		</div>
+		<div class="ms-section" id="left4">
+			<h1>Left 4</h1>
+		</div>
+
+		<div class="ms-section" id="left5">
+			<h1>Left 5 </h1>
+		</div>
+
+		<div class="ms-section" id="left6">
+			<h1>Left 6</h1>
+		</div>		
+	</div>
+	
+	<div class="ms-right">
+		<div class="ms-section" id="right1">
+			<h1>Right 1</h1>
+		</div>
+
+		<div class="ms-section" id="right2">
+			<h1>Right 2</h1>
+		</div>
+
+		<div class="ms-section" id="right3">
+			<h1>Right 3</h1>
+		</div>
+		<div class="ms-section" id="right4">
+			<h1>Left 4</h1>
+		</div>
+
+		<div class="ms-section" id="right5">
+			<h1>Left 5 </h1>
+		</div>
+
+		<div class="ms-section" id="right6">
+			<h1>Left 6</h1>
+		</div>		
+	</div>	
+</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scroll/jquery.easings.min.js"></script>
+	<script type="text/javascript" src="scroll/jquery.multiscroll.min.js"></script>
+	<script type="text/javascript">
+	 $(document).ready(function() {
+            $('#myContainer').multiscroll({
+            	anchors: ['un', 'deux', 'trois','quatre','cinque','six'],
+            	menu: '#menu',
+            	loopTop: true,
+            	loopBottom: true
+            });
+        });
+    </script>
+
+</body>
+</html>
