@@ -188,11 +188,11 @@ p{
 	background: pink;
 }
 #left1{
-	background: url('img/japan-2014618_1920.jpg');
+	background: url('img/japan-1.jpg');
 	background-position: center;
 	background-size: cover;	
 }#right1{
-	background: url('img/style-3411108_1920.jpg');
+	background: url('img/japan-2.jpg');
 	background-position: center;
 	background-size: cover;	
 }#left2{
@@ -212,7 +212,7 @@ p{
 	background-position: center;
 	background-size: cover;	
 }#left4{
-	background: url('img/japan-2014618_1920.jpg');
+	background: url('img/fantasy-4566021_1920.jpg');
 	background-position: center;
 	background-size: cover;	
 }#right4{
