@@ -44,16 +44,21 @@ q:before,q:after {
 abbr,acronym { border: 0;
 }
 
-
-/* Custom CSS
- * --------------------------------------- */
+h2{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+h2, h1{
+	font-size: 3.5em;
+	color: pink;
+}
 body{
 	font-family: arial,helvetica;
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
 h1{
-	font-size: 1em;	
+	font-size: 2em;	
 }
 p{
 	font-size: 2em;
@@ -189,18 +194,18 @@ p{
 }
 #left1{
 	background: url('img/japan-1.jpg');
-	background-position: center;
+	background-position: left;
 	background-size: cover;	
 }#right1{
 	background: url('img/japan-2.jpg');
-	background-position: center;
+	background-position: right;
 	background-size: cover;	
 }#left2{
 	background: url('img/japan-2014618_1920.jpg');
 	background-position: left;
 	background-size: cover;
 }#right2{
-	background: url('img/japan-2014618_1920.jpg');
+	background: #fff;
 	background-position: right;
 	background-size: cover;
 }#left3{
@@ -232,6 +237,25 @@ p{
 }
 #right6{
 	background: url('img/moi.jpg');
+	background-position: center;
+	background-size: cover;	
+}
+#left7{
+	background: #216;
+	background-position: center;
+	background-size: cover;	
+#right7{
+	background: #fff3;
+	background-position: center;
+	background-size: cover;	
+}
+#left8{
+	background: #f2f2f2;
+	background-position: center;
+	background-size: cover;		
+}
+#right8{
+	background: #365489;
 	background-position: center;
 	background-size: cover;	
 }
