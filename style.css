@@ -1,0 +1,182 @@
+/**********************************************
+*										      *
+*                 GENERAL STYLES              *
+*                                             *
+**********************************************/
+h1{
+	color: #f29b56;
+}
+h2{
+	color: #f29b56;
+	font-size: 2em;
+	text-align: center;
+}
+p{
+	font-size: 1.2em;
+}
+
+#index h1,#index h2,#index a{
+    color:#fff;
+}
+
+#index h1{
+	font-size: 2em;	
+}
+#index h2{
+	font-size: 3.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+.ms-section{
+	text-align: center;
+}
+
+.cont{
+	margin: 0 10%;
+}
+
+
+/**********************************************
+*										      *
+*                 MENU                        *
+*                                             *
+**********************************************/
+
+
+#menu li {
+	display:inline-block;	
+	color: #000;
+	background: rgba(255,255,255, 0.3);
+	border-radius: 50px;
+}
+#menu li.active{
+	background: rgba(16,107,63, 0.8);
+	color: #000;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+
+#menu li:hover{
+	background: #000000;
+}
+#menu li a,
+#menu li.active a{
+	display:block;
+	color: #000;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+	margin-left: 5px;
+}
+#menu li a{
+	padding: 5px;
+}
+
+
+/**********************************************
+*										      *
+*                 BACKGROUND                  *
+*                                             *
+**********************************************/
+#index{
+	background: url('img/japan-2014618_1920.jpg');
+	background-position: center;
+	background-size: cover;	
+}
+
+#about,#works,#skills,#contact{
+	background: #f2f2f2;
+
+}
+
+#left2{
+	background: #f29b56;
+	background-position: left;
+	background-size: cover;
+}
+#right2{
+	background: #f29b56;
+	background-position: right;
+	background-size: cover;
+}
+#left3{
+	background: #f29b56;
+	background-position: right;
+	background-size: cover;	
+}
+#right3{
+	background: #f29b56;
+	background-position: center;
+	background-size: cover;	
+}
+#left4{
+	background: url('img/fantasy-4566021_1920.jpg');
+	background-position: center;
+	background-size: cover;	
+}
+#right4{
+	background: #f29b56;
+}
+#left5{
+	background: #f29b56;
+	background-position: center;
+}
+#right5{
+	background: #f29b56;
+}
+
+/**********************************************
+*										      *
+*                 PAGE ABOUT                  *
+*                                             *
+**********************************************/
+
+
+
+
+
+
+/**********************************************
+*										      *
+*                 PAGE SKILLS                 *
+*                                             *
+**********************************************/
+
+
+
+
+
+
+
+/**********************************************
+*										      *
+*                 PAGE WORKS                  *
+*                                             *
+**********************************************/
+
+
+
+
+
+
+/**********************************************
+*										      *
+*                 PAGE CONTACT                *
+*                                             *
+**********************************************/
