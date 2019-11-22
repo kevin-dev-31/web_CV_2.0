@@ -40,7 +40,7 @@ use PHPMailer\PHPMailer\Exception;
                         'allow_self_signed' => true
                     ]
                 ];
-
+                // $mail->SMTPDebug = 3; //mode debug si > 2
                 $mail->CharSet = 'UTF-8';
                 $mail->isSMTP(); //connexion directe à un serveur SMTP
                 $mail->isHTML(true); //mail au format HTML
@@ -66,83 +66,107 @@ use PHPMailer\PHPMailer\Exception;
 
                         <body>
                             <h1>Message de ' . $safe['email'] . '</h1>
-                            <p>Nom: ' . $safe['name'] . '</p>
-                            <p>Objet: ' . $safe['company'] . '</p>
-                            <p>Message: ' . $safe['message'] . '</p>
+                            <p>Nom : ' . $safe['name'] . '</p>
+                            <p>Prénom : ' . $safe['firstname'] . '</p>
+                            <p>Entreprise : ' . $safe['company'] . '</p>
+                            <p>Message : ' . $safe['message'] . '</p>
                         </body>
 
                         </html>';
 
                 // envoi du message
                 if ($mail->Send()) {
-                   echo 'Votre mail à été envoyé. Merci de nous avoir contacté';
-                } else echo '<p>Une erreur est survenue, veuillez réessayer plus tard ' . $mail->ErrorInfo . '</p>';
+                    $success = 'Votre message à été envoyer, nous vous répondrons dès que possible ';
+                } else $errors = 'Une erreur est survenue, veuillez réessayer plus tard ';
                 
             } // count($errors)         
         } // if !empty($_POST)
     ?>    
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>A propos de moi</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../style.css" />	
+<?php require '../inc/header.php'; ?>
+
+	<title>Contact</title>
+
 </head>
 <body id="about">
-	<div>
-		<a href="../index.php">LOGO</a>
-	</div>	
-	<div class="container">
-		<h1>Me contacter</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore.</p>	
 
-    <?php if (isset($msg)) : ?>
-        <p style="color:green;">ok</p>
+    <main>
+    	<div>
+    		<a href="../index.php">LOGO</a>
+    	</div>	
+    	<div class="container">
+    		<h1>Me contacter</h1>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore.</p>	
 
-    <?php elseif (count($errors) > 0) : // Si j'ai des erreurs, je les affiche 
-        ?>
-        <p style="color:red"><?= implode('<br>', $errors); ?></p>
-    <?php endif; ?>
+        <?php if (isset($success)) : ?>
+            <p class="succes"><?= $success ?></p>
 
-        <form method="post" class="col-md-8">
 
-            <div class="row">
-                <div class="col">
-                    <input type="text" name="name" class="form-control" placeholder="Nom" required>
-                </div>
-                <div class="col">
-                    <input type="text" name="firstname" class="form-control" placeholder="Prénom" required>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <input type="phone" name="phone" class="form-control" placeholder="Télephone" required>
-                </div>
-                <div class="col">
-                    <input type="email" name="email" class="form-control" placeholder="Email" required>
-                </div>
-            </div>
-
-            <input type="text" name="company" class="form-control" placeholder="Entreprise">
-
-        
-                <textarea class="form-control bg-form" name="message" rows="5" placeholder="Votre message" required></textarea>
+        <?php elseif (isset($error)) : ?>  <!-- Si j'ai une erreur, je l'affiche --> 
             
-            <button class="btn-lg btn-form" type="submit">
-                Envoyer
-            </button>
+            <p class="fail"><?= $error ?></p>
+        <?php endif; ?>
 
-        </form>
-    </div>
+            <form method="post" class="col-md-8">
+
+                <div class="row">
+                    <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Nom" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="firstname" class="form-control" placeholder="Prénom" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <input type="phone" name="phone" class="form-control" placeholder="Télephone" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                </div>
+
+                <input type="text" name="company" class="form-control" placeholder="Entreprise">
+
+            
+                    <textarea class="form-control bg-form" name="message" rows="5" placeholder="Votre message" required></textarea>
+                
+                <button class="btn-lg btn-form add-product" type="submit">
+                    Envoyer
+                </button>
+
+            </form>
+        </div>
+    </main>
 
 
+    <?php require '../inc/footer.php'; ?>
+    <script type="text/javascript">
+        $(document).ready(function () {
 
+            $(".add-product").click(function () {
+
+                    if ('<?=$msg?>') { 
+                        Swal.fire({
+                            position: 'center',
+                            type: 'success',
+                            title: 'Article modifié',
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        
+                    }
+            });
+
+
+        });
+
+    </script>
 </body>
 </html>
 

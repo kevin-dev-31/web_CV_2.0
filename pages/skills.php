@@ -1,30 +1,81 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>A propos de moi</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../style.css" />	
+<?php require '../inc/header.php'; ?>
+
+	<title>Mes compétences</title>
 </head>
-<body id="about">
-	<div>
-		<a href="../index.php">LOGO</a>
-	</div>
+<body id="skills">
+	<main>
+		<div>
+			<a href="../index.php">LOGO</a>
+		</div>
 
-	<div class="cont">
-		<h1>Mes compétences</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>		
-	</div>
+		<div class="container mt-5 mb-5">
+			<h2>Ma formation</h2>
+			<p>
+				Issu d'une formation de carrossier, j'ai travaillé de nombreuses années dans plusieurs entreprises en intérim. J'ai occupé différentes fonctions, telles que technicien SAV aéronautique, responsable de secteur et employé polyvalent. 
+			</p>
+			<p>
+				Passionné depuis toujours par l'informatique et les jeux vidéo, j'ai décidé qu'il était temps de me diriger vers un emploi dans lequel je pourrais m’épanouir. 
+			</p>
+			<p>
+				Tout d’abord autodidacte, j'ai intégré la formation de développeur web et web mobile chez WebForce3 Toulouse. A l’issue de ma formation j’ai eu la chance de pouvoir faire un stage de cinq semaines au sein de Verrywell digital, anciennement Lounce. Ce fut pour moi une très bonne expérience avec des activités très varier, ce qui ma aussi permis de découvrir le fonctionnement d’une agence web, c’était génial !
+			</p>
+			<p>
+				Mon objectif pour l'avenir, intégrer une équipe dynamique, m’épanouir dans mon travail et apprendre chaque jour de nouvelles choses, ainsi que de continuer à jouer à Pokémon, sans aucune honte, mais ça, c'est une autre histoire!
+			</p>
+		</div>
+		<div>
+		<article class="text-center">
+          <h2>Langages</h2>
+          <div class="row">
+          	<div class="col-12 d-flex">
+	            <div class="col-3 disp">
+	              <figure class="img-competence">
+	                <img src="../img/cordova.png" alt="cordova" class="img-fluid">
+	              </figure>
+	            </div>
+	            <div class="col-3 disp">
+	              <figure class="img-competence">
+	                <img src="../img/html.png" alt="html5" class="img-fluid">
+	              </figure>
+	            </div>
+	            <div class="col-3 disp">
+	              <figure class="img-competence">
+	                <img src="../img/css.png" alt="css3" class="img-fluid">
+	              </figure>
+	            </div>
+	            <div class="col-3 disp">
+	              <figure class="img-competence">
+	                <img src="../img/jquery.png" alt="jquery" class="img-fluid">
+	              </figure>
+	            </div>
+            </div>
 
+          	<div class="col-12 d-flex">
+	            <div class="col-3 disp">
+	              <figure class="img-competence ">
+	                <img src="../img/js.png" alt="JavaScript" class="img-fluid">
+	              </figure>
+	            </div>
+	            <div class="col-3 disp">
+	              <figure class="img-competence">
+	                <img src="../img/bootstrap.png" alt="bootstrap" class="img-fluid">
+	              </figure>
+	            </div>
+	            <div class="col-3 disp">
+	              <figure class="img-competence">
+	                <img src="../img/wordpress.png" alt="wordpress" class="img-fluid">
+	              </figure>
+	            </div>
+	            <div class="col-3 disp">
+	              <figure class="img-competence">
+	                <img src="../img/php.png" alt="php" class="img-fluid">
+	              </figure>
+	            </div>
+        	</div>
+          </div>
+        </article>
+		</div>
+	</main>
 	<?php require '../inc/footer.php'; ?>
 </body>
 </html>
