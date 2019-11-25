@@ -41,7 +41,7 @@
 
 			<div class="ms-section" id="left3">
 				<div class="cont">
-					<h2><a href="pages/skills.php">Mes compétences</a></h2>
+					<h2>Mes compétences</a></h2>
 				</div>			
 			</div>
 			<div class="ms-section" id="left4">	
@@ -56,6 +56,7 @@
 		</div>
 		
 		<div class="ms-right">
+
 			<div class="ms-section" id="right1">		
 			</div>
 
@@ -65,7 +66,85 @@
 				</div>
 			</div>
 
-			<div class="ms-section" id="right3">		
+			<div class="ms-section" id="right3">
+				<div class="cont">
+					<div class="row">
+
+						<div class="col-12 d-flex center">
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/html5.jpeg" alt="logo de HTML 5" class="img-fluid">
+								</figure>
+							</div>
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/css3.jpg" alt="logo de CSS 3" class="img-fluid">
+								</figure>
+							</div>
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/js.png" alt="logo de JavaScript" class="img-fluid">
+								</figure>
+							</div>
+						</div>
+
+						<div class="col-12 d-flex center">
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/jquery.png" alt="logo de jQuery" class="img-fluid">
+								</figure>
+							</div>
+							<div class="col-4 disp">
+								<figure class="img-competence ">
+									<img src="img/skills/php.png" alt="logo de PHP" class="img-fluid">
+								</figure>
+							</div>
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/cordova.png" alt="logo de Cordova" class="img-fluid">
+								</figure>
+							</div>
+						</div>
+
+						<div class="col-12 d-flex center">
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/bootstrap.png" alt="logo de Bootstrap" class="img-fluid">
+								</figure>
+							</div>
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/github.jpg" alt="logo de GitHub" class="img-fluid">
+								</figure>
+							</div>
+
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/wp.png" alt="logo de WordPress" class="img-fluid">
+								</figure>
+							</div>
+						</div>
+						<div class="col-12 d-flex center">
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/illustrator.png" alt="logo de Illustrator" class="img-fluid">
+								</figure>
+							</div>
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/drupal.jpg" alt="logo de Drupal" class="img-fluid">
+								</figure>
+							</div>
+							<div class="col-4 disp">
+								<figure class="img-competence">
+									<img src="img/skills/ps.jpg" alt="logo de Photoshop" class="img-fluid">
+								</figure>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
 			</div>
 			<div class="ms-section" id="right4">
 				<div class="cont">

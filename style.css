@@ -121,7 +121,7 @@ a:hover{
 
 /**********************************************
 *										      *
-*                 BACKGROUND                  *
+*                 HOME PAGE                   *
 *                                             *
 **********************************************/
 
@@ -151,13 +151,10 @@ a:hover{
 
 }
 #right3{
-	background: url('img/game.png'),rgba(45,92,94,0.3);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
+
 }
 #left4{
-	background: url('img/setup.png'),rgba(45,92,94,0.3);
+	background: url('img/setup.png');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -169,10 +166,30 @@ a:hover{
 
 }
 #right5{
-	background: url('img/mug.png'),rgba(45,92,94,0.3);
+	background: url('img/mug.png');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+#right3 figure{
+	width: 20%;
+}
+#right3 .center{
+	justify-content: center;
+}
+
+#right3 .disp{
+	display: contents;
+}
+#right3 figure{
+	margin: 0;
+	opacity: .5;
+	transition: all .5s ease-in-out;
+}
+#right3 figure:hover{
+	opacity: 1;
+	border: 1px outset #171717;
 }
 
 /**********************************************
@@ -208,13 +225,6 @@ a:hover{
 }
 
 
-#skills figure{
-	width: 100px;
-}
-
-#skills .disp{
-	display: contents;
-}
 
 
 
