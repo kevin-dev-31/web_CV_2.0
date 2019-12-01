@@ -1,36 +1,15 @@
 <footer id="foot" class="flex-rw">
   
   <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">About Pavilion</h4></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
-
-    <li><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
-
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
+    <li><h4><a href='../pages/about.php' class="generic-anchor footer-list-anchor">A propos de moi</a></h4></li>
   </ul>
   <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">The Gift Selection</h4></li>
-
-
-    <li><a href='#' class="generic-anchor footer-list-anchor">ANGEL FIGURINES</a></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor">HOME DECOR</a></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor">MUGS</a></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor">PET LOVER</a></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS & JEWELRY</a></li>
+    <li><h4><a href='../pages/works.php' class="generic-anchor footer-list-anchor">Portfolio</a></h4></li>
   </ul>
   <ul class="footer-list-top">
-    <li id='help'>
-      <h4 class="footer-list-header">Please Help Me</h4></li>
-    <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
-    <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
-    <li id='find-a-store'><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
-    <li id='user-registration'><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
-    <li id='order-tracking'><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
+    <li><h4><a href='../pages/contact.php' class="generic-anchor footer-list-anchor">Contact</a></h4></li>
   </ul>
+
   <section class="footer-social-section flex-rw">
       <span class="footer-social-overlap footer-social-connect">
       CONNECT <span class="footer-social-small">with</span> ME

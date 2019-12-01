@@ -111,36 +111,38 @@ use PHPMailer\PHPMailer\Exception;
             <p class="fail"><?= $error ?></p>
         <?php endif; ?>
 
-            <form method="post" class="col-md-8">
+            <div class="form">
+                <form method="post" class="col-md-8">
 
-                <div class="row">
-                    <div class="col">
-                        <input type="text" name="name" class="form-control" placeholder="Nom" required>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Nom" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" name="firstname" class="form-control" placeholder="Prénom" required>
+                        </div>
                     </div>
-                    <div class="col">
-                        <input type="text" name="firstname" class="form-control" placeholder="Prénom" required>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col">
-                        <input type="phone" name="phone" class="form-control" placeholder="Télephone" required>
+                    <div class="row">
+                        <div class="col">
+                            <input type="phone" name="phone" class="form-control" placeholder="Télephone" required>
+                        </div>
+                        <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
                     </div>
-                    <div class="col">
-                        <input type="email" name="email" class="form-control" placeholder="Email" required>
-                    </div>
-                </div>
 
-                <input type="text" name="company" class="form-control" placeholder="Entreprise">
+                    <input type="text" name="company" class="form-control" placeholder="Entreprise">
 
-            
-                    <textarea class="form-control bg-form" name="message" rows="5" placeholder="Votre message" required></textarea>
                 
-                <button class="btn-lg btn-form add-product" type="submit">
-                    Envoyer
-                </button>
+                        <textarea class="form-control bg-form" name="message" rows="5" placeholder="Votre message" required></textarea>
+                    
+                    <button class="btn-lg btn-form add-product" type="submit">
+                        Envoyer
+                    </button>
 
-            </form>
+                </form>
+            </div>
         </div>
     </main>
 

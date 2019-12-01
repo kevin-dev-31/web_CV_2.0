@@ -253,7 +253,9 @@ a:hover{
 	background: red;
 }
 
-
+#about form{
+  margin: auto;
+}
 
 
 /**********************************************
