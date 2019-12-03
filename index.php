@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
 	<meta charset="utf-8">	
 	<title>test cv</title>
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="scroll/jquery.multiscroll.css">		
-	<link rel="stylesheet" type="text/css" href="style.css">		
+	<link rel="stylesheet" type="text/css" href="scroll/jquery.multiscroll.css">	
+	<link rel="icon" type="image/png" href="img/fav.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta name="description" content="CV de kévin ricou, développeur web et web mobile, Toulouse">	
 
 </head>
 <body id="index">
@@ -83,17 +86,12 @@
 							</div>
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/js.png" alt="logo de JavaScript" class="img-fluid">
+									<img src="img/skills/jquery.png" alt="logo de jQuery" class="img-fluid">
 								</figure>
 							</div>
 						</div>
 
 						<div class="col-12 d-flex center">
-							<div class="col-4 disp">
-								<figure class="img-competence">
-									<img src="img/skills/jquery.png" alt="logo de jQuery" class="img-fluid">
-								</figure>
-							</div>
 							<div class="col-4 disp">
 								<figure class="img-competence ">
 									<img src="img/skills/php.png" alt="logo de PHP" class="img-fluid">
@@ -101,33 +99,20 @@
 							</div>
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/cordova.png" alt="logo de Cordova" class="img-fluid">
-								</figure>
-							</div>
-						</div>
-
-						<div class="col-12 d-flex center">
-							<div class="col-4 disp">
-								<figure class="img-competence">
 									<img src="img/skills/bootstrap.png" alt="logo de Bootstrap" class="img-fluid">
 								</figure>
 							</div>
-							<div class="col-4 disp">
-								<figure class="img-competence">
-									<img src="img/skills/github.jpg" alt="logo de GitHub" class="img-fluid">
-								</figure>
-							</div>
-
 							<div class="col-4 disp">
 								<figure class="img-competence">
 									<img src="img/skills/wp.png" alt="logo de WordPress" class="img-fluid">
 								</figure>
 							</div>
 						</div>
+
 						<div class="col-12 d-flex center">
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/illustrator.png" alt="logo de Illustrator" class="img-fluid">
+									<img src="img/skills/github.jpg" alt="logo de GitHub" class="img-fluid">
 								</figure>
 							</div>
 							<div class="col-4 disp">
@@ -135,6 +120,7 @@
 									<img src="img/skills/drupal.jpg" alt="logo de Drupal" class="img-fluid">
 								</figure>
 							</div>
+
 							<div class="col-4 disp">
 								<figure class="img-competence">
 									<img src="img/skills/ps.jpg" alt="logo de Photoshop" class="img-fluid">

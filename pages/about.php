@@ -4,9 +4,9 @@
 </head>
 <body id="about">
 	<main>
-		<div>
-			<a href="../index.php">LOGO</a>
-		</div>
+    	<div class="indexLink">
+    		<a href="../index.php"><img src="../img/logo.png" alt="logo du site, lien vers l'accueil"></a>
+    	</div>	
 		<div class="container mt-5 mb-5">
 			<h2>Qui suis-je?</h2>
 			<p>

@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5{
 
 p{
 	font-family: 'Roboto Mono', monospace;
-	line-height: 1.5;
+	line-height: 2;
 	font-weight: 600;
 	font-size: 1.2em;
 	color: #fff;
@@ -72,9 +72,15 @@ a:hover{
 	margin: 0 10%;
 }
 
+.indexLink img{
+	width: 10%;
+	margin: 5% 0 0 5%;
+}
+
+
 
 /**********************************************
-*										      *
+*										                          *
 *                 MENU                        *
 *                                             *
 **********************************************/
@@ -120,7 +126,7 @@ a:hover{
 
 
 /**********************************************
-*										      *
+*										                          *
 *                 HOME PAGE                   *
 *                                             *
 **********************************************/
@@ -193,71 +199,194 @@ a:hover{
 }
 
 /**********************************************
-*										      *
+*										                          *
 *                 PAGE ABOUT                  *
 *                                             *
 **********************************************/
 #about{
-	background: url('img/glass.jpg'),rgba(45,92,94,0.3);
+/*	background: url('img/glass.jpg'),rgba(45,92,94,0.3);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
+	background: #0B0000;
+}
+
+#about h2{
+  margin-bottom: 5%;
 }
 
 
 
 
-
-
 /**********************************************
-*										      *
+*										                          *
 *                 PAGE SKILLS                 *
 *                                             *
 **********************************************/
 
 #skills{
-	background: url('img/glass.jpg'),rgba(45,92,94,0.3);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background: #0B0000;
+}
+
+
+
+/**********************************************
+*										                          *
+*                 PAGE WORKS                  *
+*                                             *
+**********************************************/
+#works img{
+  max-width: 100%;
+}
+
+#portfolio h1{
+  margin-bottom: 10%;
+}
+
+#portfolio .portfolio-item {
+  padding: 0 15px;
+  right: 0;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+  border: 4px solid;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color:  rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 15px;
+  margin: 0;
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+.color_modal{
+  background:   rgba(0, 0, 0, 0.1); 
+}
+.portfolio-modal{
+  background: rgba(19,132,150, 0.3);
 }
 
 
 
 
-
 /**********************************************
-*										      *
-*                 PAGE WORKS                  *
-*                                             *
-**********************************************/
-
-
-
-
-
-
-/**********************************************
-*										      *
+*										                          *
 *                 PAGE CONTACT                *
 *                                             *
 **********************************************/
 
-#about .succes{
+#contact{
+	background: #0B0000;
+	text-align: center;
+}
+
+#contact h1, #contact .text{
+	max-width: 66.666667%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#contact .succes{
 	background: green;
 }
 
-#about .fail{
+#contact .fail{
 	background: red;
 }
 
-#about form{
+#contact form{
   margin: auto;
 }
 
+#contact input, #contact textarea{
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-width: 0 0 5px 0;
+	border-radius: 0;
+	border-color: #8DB9ED;
+	font-family: 'Roboto Mono', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
+#contact input:hover, #contact textarea:hover{
+	border-color: #0056b3;
+}
+
+#contact input:focus, #contact textarea:focus{
+	outline-style: none;
+	box-shadow: none;
+}
+
+
+#contact .send{
+	display: block;
+	margin: auto;
+	border: none;
+	margin-top: 5%;
+	margin-bottom: 20%;
+	padding: 10px 70px; 
+	background: #8DB9ED;
+	color: #FFF;
+	font-family: 'Roboto Mono', cursive;
+}
+#contact .send:hover{
+	background: #0056b3;
+}
 /**********************************************
 *										      *
 *                 FOOTER                      *
@@ -290,16 +419,23 @@ main {
 footer {
 	font: 11px "Open Sans", sans-serif;
   background: rgb(55,55,55);
-  margin-top: auto;
+  margin-top: 10%;;
   width: 100%
 }
 .footer-list-top {
-  width: 33.333%
+  width: 25%;
+  margin: auto;
 }
 .footer-list-top > li {
   text-align: center;
   padding-bottom: 10px
 }
+
+.footer-list-top img{
+  height: 15em;
+
+}
+
 .footer-list-header {
   padding: 10px 0 5px 0;
   color: #fff;

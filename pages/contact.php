@@ -88,19 +88,18 @@ use PHPMailer\PHPMailer\Exception;
 	<title>Contact</title>
 
 </head>
-<body id="about">
+<body id="contact">
 
     <main>
-    	<div>
-    		<a href="../index.php">LOGO</a>
+    	<div class="indexLink">
+    		<a href="../index.php"><img src="../img/logo.png" alt="logo du site, lien vers l'accueil"></a>
     	</div>	
     	<div class="container">
     		<h1>Me contacter</h1>
-    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore.</p>	
+    		<div class="text">
+                <p>Mon profil vous interesse? Alors n'hesitez pas à me contacter via ce formulaire.</p>
+                <p>Si vous préférez vous pouvez également me contacter par telephonne au <a href="tel:+330688069281">06-88-06-92-81</a> ainsi que par mail en cliquant <a href="mailto:ricoukevin@yahoo.fr">ici</a></p>      
+            </div>	
 
         <?php if (isset($success)) : ?>
             <p class="succes"><?= $success ?></p>
@@ -135,9 +134,9 @@ use PHPMailer\PHPMailer\Exception;
                     <input type="text" name="company" class="form-control" placeholder="Entreprise">
 
                 
-                        <textarea class="form-control bg-form" name="message" rows="5" placeholder="Votre message" required></textarea>
+                        <textarea class="form-control bg-form" name="message" rows="5" placeholder="A vous de jouer" required></textarea>
                     
-                    <button class="btn-lg btn-form add-product" type="submit">
+                    <button class="btn-lg send" type="submit">
                         Envoyer
                     </button>
 

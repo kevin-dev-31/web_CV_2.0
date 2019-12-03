@@ -1,26 +1,30 @@
 <footer id="foot" class="flex-rw">
   
+
+  <ul class="footer-list-top">
+    <li><a href="../index.php"><img src="../img/logo.png" alt="logo du site, lien vers l'accueil"></a></li>
+  </ul>  
   <ul class="footer-list-top">
     <li><h4><a href='../pages/about.php' class="generic-anchor footer-list-anchor">A propos de moi</a></h4></li>
   </ul>
-  <ul class="footer-list-top">
+   <ul class="footer-list-top">
     <li><h4><a href='../pages/works.php' class="generic-anchor footer-list-anchor">Portfolio</a></h4></li>
   </ul>
-  <ul class="footer-list-top">
+   <ul class="footer-list-top">
     <li><h4><a href='../pages/contact.php' class="generic-anchor footer-list-anchor">Contact</a></h4></li>
   </ul>
+
+
 
   <section class="footer-social-section flex-rw">
       <span class="footer-social-overlap footer-social-connect">
       CONNECT <span class="footer-social-small">with</span> ME
       </span>
       <span class="footer-social-overlap footer-social-icons-wrapper">
-      <a href="https://www.pinterest.com/paviliongift/" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
-      <a href="https://www.facebook.com/paviliongift" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com/PavilionGiftCo" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
-      <a href="http://instagram.com/paviliongiftcompany" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.youtube.com/channel/UCYgUODvd0qXbu_LkUWpTVEg" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
-      <a href="https://plus.google.com/+Paviliongift/posts" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.facebook.com/kevin.ricou" class="generic-anchor" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/kevin_plaza_31" class="generic-anchor" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/kevin-ricou-dev" class="generic-anchor"><i class="fa fa-youtube"></i></a>
+      <a href="https://github.com/kevin-dev-31" class="generic-anchor" target="_blank"><i class="fa fa-google-plus"></i></a>
       </span>
   </section>
   <section class="footer-bottom-section flex-rw">
@@ -29,9 +33,7 @@
  
 </i> 2019 - Réalisé avec mon 🐱 et tout mon 💚 By Ricou Kévin<span class="footer-bottom-rights"> - All Rights Reserved - </span>
     </div>
-    <div class="footer-bottom-wrapper">
-    <a href="/terms-of-use.html" class="generic-anchor" rel="nofollow">Terms</a> | <a href="/privacy-policy.html" class="generic-anchor" rel="nofollow">Privacy</a>
-      </div>
+
   </section>
 </footer>
 
