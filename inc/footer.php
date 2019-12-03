@@ -5,13 +5,13 @@
     <li><a href="../index.php"><img src="../img/logo.png" alt="logo du site, lien vers l'accueil"></a></li>
   </ul>  
   <ul class="footer-list-top">
-    <li><h4><a href='../pages/about.php' class="generic-anchor footer-list-anchor">A propos de moi</a></h4></li>
+    <li><a href='../pages/about.php' class="generic-anchor footer-list-anchor">A propos de moi</a></li>
   </ul>
    <ul class="footer-list-top">
-    <li><h4><a href='../pages/works.php' class="generic-anchor footer-list-anchor">Portfolio</a></h4></li>
+    <li><a href='../pages/works.php' class="generic-anchor footer-list-anchor">Portfolio</a></li>
   </ul>
    <ul class="footer-list-top">
-    <li><h4><a href='../pages/contact.php' class="generic-anchor footer-list-anchor">Contact</a></h4></li>
+    <li><a href='../pages/contact.php' class="generic-anchor footer-list-anchor">Contact</a></li>
   </ul>
 
 
@@ -21,10 +21,10 @@
       CONNECT <span class="footer-social-small">with</span> ME
       </span>
       <span class="footer-social-overlap footer-social-icons-wrapper">
-      <a href="https://www.facebook.com/kevin.ricou" class="generic-anchor" target="_blank"><i class="fa fa-facebook"></i></a>
-      <a href="https://www.instagram.com/kevin_plaza_31" class="generic-anchor" target="_blank"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/kevin-ricou-dev" class="generic-anchor"><i class="fa fa-youtube"></i></a>
-      <a href="https://github.com/kevin-dev-31" class="generic-anchor" target="_blank"><i class="fa fa-google-plus"></i></a>
+      <a href="https://www.facebook.com/kevin.ricou" class="generic-anchor" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/kevin_plaza_31" class="generic-anchor" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/kevin-ricou-dev" class="generic-anchor"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/kevin-dev-31" class="generic-anchor" target="_blank"><i class="fab fa-github-square"></i></a>
       </span>
   </section>
   <section class="footer-bottom-section flex-rw">

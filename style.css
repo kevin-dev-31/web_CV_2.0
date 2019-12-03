@@ -204,32 +204,14 @@ a:hover{
 *                                             *
 **********************************************/
 #about{
-/*	background: url('img/glass.jpg'),rgba(45,92,94,0.3);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;*/
 	background: #0B0000;
+  background: url('img/sport.png'),rgba(45,92,94,0.3);
+	background-repeat: no-repeat;
 }
 
 #about h2{
   margin-bottom: 5%;
 }
-
-
-
-
-/**********************************************
-*										                          *
-*                 PAGE SKILLS                 *
-*                                             *
-**********************************************/
-
-#skills{
-	background: #0B0000;
-}
-
-
 
 /**********************************************
 *										                          *
@@ -330,8 +312,11 @@ a:hover{
 **********************************************/
 
 #contact{
-	background: #0B0000;
-	text-align: center;
+  background:linear-gradient(0deg, rgba(127,100,208,.5) 0%, rgba(232,156,24,.5) 46%),url('img/city.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 #contact h1, #contact .text{
@@ -388,7 +373,7 @@ a:hover{
 	background: #0056b3;
 }
 /**********************************************
-*										      *
+*										                          *
 *                 FOOTER                      *
 *                                             *
 **********************************************/
@@ -428,11 +413,20 @@ footer {
 }
 .footer-list-top > li {
   text-align: center;
-  padding-bottom: 10px
+  padding: 10px 0;
+}
+
+.footer-list-top a {
+  color: #fff;
+  font: 1.3vw "Oswald", sans-serif; 
+}
+
+.footer-list-top a:hover{
+  color: #8DB9ED;
 }
 
 .footer-list-top img{
-  height: 15em;
+  height: 5em;
 
 }
 

@@ -91,10 +91,10 @@ use PHPMailer\PHPMailer\Exception;
 <body id="contact">
 
     <main>
-    	<div class="indexLink">
-    		<a href="../index.php"><img src="../img/logo.png" alt="logo du site, lien vers l'accueil"></a>
-    	</div>	
     	<div class="container">
+        	<div class="indexLink">
+        		<a href="../index.php"><img src="../img/logo.png" alt="logo du site, lien vers l'accueil"></a>
+        	</div>	
     		<h1>Me contacter</h1>
     		<div class="text">
                 <p>Mon profil vous interesse? Alors n'hesitez pas à me contacter via ce formulaire.</p>
