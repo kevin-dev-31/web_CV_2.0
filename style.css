@@ -1,5 +1,5 @@
 /**********************************************
-*										      *
+*										                          *
 *                 GENERAL STYLES              *
 *                                             *
 **********************************************/
@@ -22,14 +22,14 @@ a {
 }
 
 h1,h2,h3,h4,h5{
-	font-family: 'Audiowide', cursive;
+	font-family: 'Oswald', sans-serif;
 	color: #0056b3;
 }
 
 p{
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Oswald', sans-serif;
 	line-height: 2;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1.2em;
 	color: #fff;
 }
@@ -139,11 +139,6 @@ a:hover{
   min-height: 100%;
 }
 
-#about,#works,#skills,#contact{
-	background: #f2f2f2;
-
-}
-
 #left2{
 	background: url('img/moi.png');
 	background-position: center;
@@ -203,16 +198,43 @@ a:hover{
 *                 PAGE ABOUT                  *
 *                                             *
 **********************************************/
-#about{
-	background: #0B0000;
-  background: url('img/sport.png'),rgba(45,92,94,0.3);
-	background-repeat: no-repeat;
+#about p{
+  color: #000; 
 }
 
-#about h2{
-  margin-bottom: 5%;
+#about .first, #about .second {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%
 }
 
+#about .first h2{
+  position: relative;
+  top: 40px;
+  left: -35%;
+  margin-bottom: -40px;
+  text-align: left;
+}
+
+#about .first img{
+  vertical-align: middle;
+}
+
+#about .first p{
+  position: relative;
+  top: -400px;
+  left: -35%;
+  margin-bottom: -300px;
+  color: red;
+}
+
+#about .back{
+  background: yellow;
+  padding: 5% 0;
+}
+#about footer{
+  margin-top: 0;
+}
 /**********************************************
 *										                          *
 *                 PAGE WORKS                  *
@@ -324,6 +346,16 @@ a:hover{
 	margin: auto;
 	margin-bottom: 50px;
 }
+#contact p{
+  text-shadow: 1px 1px 2px black;
+}
+#contact a{
+  color: #8DB9ED
+}
+
+#contact a:hover{
+  color: #0056b3;
+}
 
 #contact .succes{
 	background: green;
@@ -346,6 +378,10 @@ a:hover{
 	font-family: 'Roboto Mono', cursive;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+#contact input::placeholder, #contact textarea::placeholder{
+  color: #C3C3C3;
 }
 
 #contact input:hover, #contact textarea:hover{
