@@ -11,7 +11,8 @@ html, body {
 body {
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: space-between
+	justify-content: space-between;
+  font-size: 1.6em
 }
 ul {
   list-style: none
@@ -30,7 +31,7 @@ p{
 	font-family: 'Oswald', sans-serif;
 	line-height: 2;
 	font-weight: 500;
-	font-size: 1.2em;
+	font-size: 0.8em;
 	color: #fff;
 }
 
@@ -141,8 +142,8 @@ a:hover{
 
 #left2{
 	background: url('img/moi.png');
-	background-position: center;
-	background-size: cover;
+	background-position: bottom;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 #right2{
@@ -193,6 +194,13 @@ a:hover{
 	border: 1px outset #171717;
 }
 
+@media (max-width: 995px){
+  #left3,#left5,#right2,#right4{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+}
+
 /**********************************************
 *										                          *
 *                 PAGE ABOUT                  *
@@ -205,33 +213,86 @@ a:hover{
 #about .first, #about .second {
   margin: auto;
   margin-top: 5%;
-  margin-bottom: 5%
+  margin-bottom: 5%;
 }
-
-#about .first h2{
-  position: relative;
-  top: 40px;
-  left: -35%;
-  margin-bottom: -40px;
-  text-align: left;
+#about .first{
+  margin-bottom: -5%;
+}
+#about .first .z{
+  z-index: 999;
 }
 
 #about .first img{
   vertical-align: middle;
 }
 
-#about .first p{
+#about .first h2{
   position: relative;
-  top: -400px;
-  left: -35%;
-  margin-bottom: -300px;
-  color: red;
+  top: -580px;
+  left: -40%;
+  margin-bottom: -40px;
+  text-align: left;
 }
 
+#about .first p{
+  position: relative;
+  top: -500px;
+  left: -40%;
+  margin-right: 30%;
+  margin-bottom: -300px;
+}
+#about .second .img{
+  padding: 0;
+}
+#about .second .career{
+  margin-top: 10%;
+  padding: 0;
+}
+
+#about .second .career p{
+  margin-left: 5%;
+}
+
+#about .second .margin{
+  margin-top: 5%;
+}
+
+@media (max-width: 995px) {
+    #about .first{
+      margin: auto;
+    }
+    #about .first h2, #about .first p{
+      position: static;
+      top: auto;
+      left: auto;
+      margin: auto;
+  }
+  #about .first h2{
+    text-align: center;
+    margin-top: 5%;
+  }
+  #about .second .career p{
+  margin-left: 0;
+  }
+
+} 
+
 #about .back{
-  background: yellow;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   padding: 5% 0;
 }
+
+#about .content{
+  text-align: center;
+}
+
+#about .content img{
+  transform: rotate(-10deg);
+  width: 15%;
+  margin: 0 3%;
+}
+
 #about footer{
   margin-top: 0;
 }

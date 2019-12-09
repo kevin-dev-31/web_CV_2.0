@@ -44,7 +44,7 @@
 
 			<div class="ms-section" id="left3">
 				<div class="cont">
-					<h2>Mes compétences</a></h2>
+					<h2>Compétences</a></h2>
 				</div>			
 			</div>
 			<div class="ms-section" id="left4">	
