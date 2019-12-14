@@ -23,7 +23,7 @@
       <span class="footer-social-overlap footer-social-icons-wrapper">
       <a href="https://www.facebook.com/kevin.ricou" class="generic-anchor" target="_blank"><i class="fab fa-facebook-square"></i></a>
       <a href="https://www.instagram.com/kevin_plaza_31" class="generic-anchor" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/kevin-ricou-dev" class="generic-anchor"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/kevin-ricou-dev" class="generic-anchor" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/kevin-dev-31" class="generic-anchor" target="_blank"><i class="fab fa-github-square"></i></a>
       </span>
   </section>
@@ -31,7 +31,7 @@
 <div class="footer-bottom-wrapper">   
 <i class="fa fa-copyright" role="copyright">
  
-</i> 2019 - Réalisé avec mon 🐱 et tout mon 💚 By Ricou Kévin<span class="footer-bottom-rights"> - All Rights Reserved - </span>
+</i> 2019 - Réalisé avec mon 🐱 et tout mon 💚 By Ricou Kévin<span class="footer-bottom-rights"> - © Tous droits réservés - </span>
     </div>
 
   </section>

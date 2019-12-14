@@ -45,6 +45,9 @@
 						<p>
 							Tout d’abord autodidacte, j'ai intégré la formation de développeur web et web mobile chez WebForce3 Toulouse. A l’issue de ma formation j’ai eu la chance de pouvoir faire un stage de cinq semaines au sein de Verrywell digital, anciennement Lounce. Ce fut pour moi une très bonne expérience avec des activités très varier, ce qui ma aussi permis de découvrir le fonctionnement d’une agence web, c’était génial !
 						</p>
+						<p>
+							Vous pouvez télécharger mon CV ici.
+						</p>
     				</div>
 					<hr>
 					<div class="content">

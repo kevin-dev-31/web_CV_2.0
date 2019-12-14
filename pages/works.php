@@ -110,8 +110,12 @@
 							
 							<p class="mt-5">----------------------  </p>
 							<ul class="list-inline">
-								<li>Client: WF3 projet</li>
-								<li>Category: Application mobile</li>
+								<li>
+									<p class="text-muted">Client: WF3 projet</p>
+								</li>
+								<li>
+									<p class="text-muted">Category: Application mobile</p>
+								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
 							<i class="fas fa-times"></i>
@@ -144,8 +148,12 @@
 							</div>
 							<p class="mt-5">--------------------------</p>
 							<ul class="list-inline">
-								<li>Client: WF3 projet</li>
-								<li>Category: Site web</li>
+								<li>
+									<p class="text-muted">Client: WF3 projet</p>
+								</li>
+								<li>
+									<p class="text-muted">Category: Site web</p>
+								</li>
 							</ul>
 							
 							<button class="btn btn-info" data-dismiss="modal" type="button">
@@ -173,14 +181,18 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">Elise Dautrey Sophrologue</h2>
-							<p class="item-intro text-muted">Site web de sophrologie.</p>
+							<p class="item-intro text-muted">Site web de sophrologie</p>
 							<div>
 								<img src="../img/portfolio/sofro/sofro.png" alt="photo du site Elise Dautrey Sophrologue">
 							</div>
 							<p class="mt-5">------------------------ </p>
 							<ul class="list-inline">
-								<li>Client: Elise DAUTREY</li>
-								<li>Category: Site web WordPress</li>
+								<li>
+									<p class="text-muted">Client: Elise DAUTREY</p>
+								</li>
+								<li>
+									<p class="text-muted">Category: Site web WordPress</p>
+								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
 							<i class="fas fa-times"></i>
@@ -214,8 +226,12 @@
 							<p class="mt-5">---------------------</p>
 							<ul class="list-inline">
 								
-								<li>Client: Projet professionnel</li>
-								<li>Category: Site de e-comerce sous symfony</li>
+								<li>
+									<p class="text-muted">Client: Projet professionnel</p>
+								</li>
+								<li>
+									<p class="text-muted">Category: Site de e-comerce sous symfony</p>
+								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
 							<i class="fas fa-times"></i>
@@ -249,8 +265,12 @@
 							<p class="mt-5">--------------------------------------------.</p>
 							<ul class="list-inline">
 								
-								<li>Client: Projet personnel</li>
-								<li>Category: Site de jeux</li>
+								<li>
+									<p class="text-muted">Client: Projet personnel</p>
+								</li>
+								<li>
+									<p class="text-muted">Category: Site de jeux</p>
+								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
 							<i class="fas fa-times"></i>

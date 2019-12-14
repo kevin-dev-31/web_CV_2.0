@@ -12,7 +12,7 @@ body {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-between;
-  font-size: 1.6em
+  font-size: 1.6em;
 }
 ul {
   list-style: none
@@ -38,6 +38,15 @@ p{
 h2{
 	font-size: 2em;
 	text-align: center;
+}
+
+@media (max-width: 995px){
+  h2{
+    font-size: 40px
+  }
+  p{
+    font-size: 20px 
+  }
 }
 
 
@@ -140,6 +149,16 @@ a:hover{
   min-height: 100%;
 }
 
+@media (max-width: 768px){
+  .big{
+    display: none;
+  }
+}
+@media (min-width: 769px){
+  .small{
+    display: none;
+  }
+}
 #left2{
 	background: url('img/moi.png');
 	background-position: bottom;
@@ -177,6 +196,13 @@ a:hover{
 #right3 figure{
 	width: 20%;
 }
+
+@media (min-width: 768px){
+#right3 figure{
+  width: 100%;
+}
+}
+
 #right3 .center{
 	justify-content: center;
 }
@@ -195,9 +221,10 @@ a:hover{
 }
 
 @media (max-width: 995px){
-  #left3,#left5,#right2,#right4{
+  #left3,#left5,#right1,#right2,#right4{
     writing-mode: vertical-lr;
-    text-orientation: upright;
+    /*text-orientation: upright;*/
+    font-size: 0.8em
   }
 }
 
@@ -291,6 +318,20 @@ a:hover{
   transform: rotate(-10deg);
   width: 15%;
   margin: 0 3%;
+}
+
+@media (max-width: 768px){
+  #about .content img{
+    width: 25%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px){
+  #about .content img{
+    width: 45%;
+    margin: auto;
+  }
 }
 
 #about footer{
@@ -410,11 +451,11 @@ a:hover{
 #contact p{
   text-shadow: 1px 1px 2px black;
 }
-#contact a{
+#contact main a{
   color: #8DB9ED
 }
 
-#contact a:hover{
+#contact main a:hover{
   color: #0056b3;
 }
 
@@ -477,33 +518,31 @@ a:hover{
 
 
 
+#foot {
+	font: 11px "Open Sans", sans-serif;
+  margin-top: 10%;
+  width: 100%;
+}
+footer, footer ul, footer section{
+  background: #373737;
+  margin: 0;
+  padding: 0
+}
 .generic-anchor {
 	color: #8DB9ED;
-	&:visited {
+}  
+.generic-anchor::visited {
 		color: #8DB9ED
-	}
-	&:hover {
-		color: #ccc
-	}
 }
+.generic-anchor::hover {
+		color: #ccc
+}
+
 .flex-rw {
   display: flex;
   flex-flow: row wrap;
 }
 
-main {
-  flex: 1 1 auto; //For IE11
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.3;
-}
-footer {
-	font: 11px "Open Sans", sans-serif;
-  background: rgb(55,55,55);
-  margin-top: 10%;;
-  width: 100%
-}
 .footer-list-top {
   width: 25%;
   margin: auto;
@@ -515,7 +554,7 @@ footer {
 
 .footer-list-top a {
   color: #fff;
-  font: 1.3vw "Oswald", sans-serif; 
+  font: 1.8em "Oswald", sans-serif; 
 }
 
 .footer-list-top a:hover{
@@ -523,7 +562,7 @@ footer {
 }
 
 .footer-list-top img{
-  height: 5em;
+  height: 4em;
 
 }
 

@@ -35,7 +35,9 @@
 			<div class="ms-section" id="left1">
 				<div class="cont">
 					<h2>ricou kévin</h2>
-					<h1>Développeur web</h1>
+					<div class="big">
+						<h1>Développeur web</h1>
+					</div>
 				</div>			
 			</div>
 
@@ -60,7 +62,10 @@
 		
 		<div class="ms-right">
 
-			<div class="ms-section" id="right1">		
+			<div class="ms-section" id="right1">
+				<div class="small">
+					<h2>Développeur web</h2>
+				</div>		
 			</div>
 
 			<div class="ms-section" id="right2">
@@ -157,6 +162,7 @@
             	loopBottom: true
             });
         });
+
     </script>
 
 </body>
