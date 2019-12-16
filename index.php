@@ -4,8 +4,10 @@
 <head>
 	<meta charset="utf-8">	
 	<title>test cv</title>
-	<meta name="description" content="" />
+	<meta name="description" content="">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">	
 	<link rel="stylesheet" type="text/css" href="scroll/jquery.multiscroll.css">	
 	<link rel="icon" type="image/png" href="img/fav.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -41,7 +43,10 @@
 				</div>			
 			</div>
 
-			<div class="ms-section" id="left2">		
+			<div class="ms-section" id="left2">	
+				<video autoplay muted loop id="imgAbout">
+				  <source src="img/original.mp4" type="video/mp4">
+				</video>
 			</div>
 
 			<div class="ms-section" id="left3">
@@ -54,7 +59,7 @@
 
 			<div class="ms-section" id="left5">
 				<div class="cont">
-					<h2><a href="pages/contact.php">Contact</a></h2>
+					<h2><a href="pages/contact.php">Contact <i class="far fa-hand-point-left fa-xs"></i></a></h2>
 				</div>			
 			</div>
 		
@@ -62,15 +67,12 @@
 		
 		<div class="ms-right">
 
-			<div class="ms-section" id="right1">
-				<div class="small">
-					<h2>Développeur web</h2>
-				</div>		
+			<div class="ms-section" id="right1">		
 			</div>
 
 			<div class="ms-section" id="right2">
 				<div class="cont">
-					<h2><a href="pages/about.php">A propos de moi</a></h2>				
+					<h2><a href="pages/about.php">A propos de moi <i class="fas fa-share fa-xs"></i></a></h2>				
 				</div>
 			</div>
 
@@ -139,7 +141,7 @@
 			</div>
 			<div class="ms-section" id="right4">
 				<div class="cont">
-					<h2><a href="pages/works.php">Portfolio</a></h2>
+					<h2><a href="pages/works.php">Portfolio <i class="fas fa-share fa-xs"></i></a></h2>
 				</div>	
 			</div>
 

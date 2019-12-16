@@ -149,22 +149,21 @@ a:hover{
   min-height: 100%;
 }
 
-@media (max-width: 768px){
-  .big{
-    display: none;
-  }
-}
-@media (min-width: 769px){
-  .small{
-    display: none;
-  }
-}
 #left2{
-	background: url('img/moi.png');
-	background-position: bottom;
-	background-size: contain;
-	background-repeat: no-repeat;
+
 }
+@media (min-width: 768px){
+  #imgAbout{
+    display: none;
+  }
+  #left2{
+    background: url('img/moi.png');
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
 #right2{
 
 }
@@ -198,9 +197,9 @@ a:hover{
 }
 
 @media (min-width: 768px){
-#right3 figure{
-  width: 100%;
-}
+  #right3 figure{
+    width: 100%;
+  }
 }
 
 #right3 .center{
@@ -222,9 +221,9 @@ a:hover{
 
 @media (max-width: 995px){
   #left3,#left5,#right1,#right2,#right4{
-    writing-mode: vertical-lr;
-    /*text-orientation: upright;*/
-    font-size: 0.8em
+/*    writing-mode: vertical-lr;
+    text-orientation: upright;
+*/    font-size: 0.6em
   }
 }
 
@@ -274,6 +273,7 @@ a:hover{
 #about .second .career{
   margin-top: 10%;
   padding: 0;
+  padding-right: 3%;
 }
 
 #about .second .career p{
@@ -657,7 +657,8 @@ footer, footer ul, footer section{
     font-size: 1.5em
   }
   .footer-social-section {
-    justify-content: center
+    justify-content: center;
+    margin-top: 0
   }
   .footer-social-section::after {
     top: 25%
@@ -678,7 +679,8 @@ footer, footer ul, footer section{
     margin-left: 20px;
   }
   .footer-bottom-section {
-    padding: 0 5px 10px 5px
+    padding: 0 5px 10px 5px;
+    margin-top: 0
   }
   .footer-bottom-wrapper {
     text-align: center;

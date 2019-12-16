@@ -91,7 +91,7 @@ use PHPMailer\PHPMailer\Exception;
 <body id="contact">
 
     <main>
-    	<div class="container">
+    	<div class="container-sm">
         	<div class="indexLink">
         		<a href="../index.php"><img src="../img/logo.png" alt="logo du site, lien vers l'accueil"></a>
         	</div>	
@@ -103,10 +103,7 @@ use PHPMailer\PHPMailer\Exception;
 
         <?php if (isset($success)) : ?>
             <p class="succes"><?= $success ?></p>
-
-
-        <?php elseif (isset($error)) : ?>  <!-- Si j'ai une erreur, je l'affiche --> 
-            
+        <?php elseif (isset($error)) : ?>           
             <p class="fail"><?= $error ?></p>
         <?php endif; ?>
 
