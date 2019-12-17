@@ -59,7 +59,7 @@
 
 			<div class="ms-section" id="left5">
 				<div class="cont">
-					<h2><a href="pages/contact.php">Contact <i class="far fa-hand-point-left fa-xs"></i></a></h2>
+					<h2><a href="pages/contact.php"><i class="fas fa-share fa-xs last"></i> Contact</a></h2>
 				</div>			
 			</div>
 		

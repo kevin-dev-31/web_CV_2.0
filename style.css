@@ -227,6 +227,14 @@ a:hover{
   }
 }
 
+
+i{
+  transform: rotateX(180deg);
+}
+i.last{
+  transform: rotateZ(180deg);
+}
+
 /**********************************************
 *										                          *
 *                 PAGE ABOUT                  *
