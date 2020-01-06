@@ -1,6 +1,5 @@
 <?php require '../inc/header.php'; ?>
 
-	<meta name="description" content="">
 	<title>Portfolio</title>
 </head>
 <body id="works">

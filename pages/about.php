@@ -1,6 +1,5 @@
 <?php require '../inc/header.php'; ?>
 	
-	<meta name="description" content="">
 	<title>A propos de moi</title>
 </head>
 <body id="about">

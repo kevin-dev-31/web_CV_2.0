@@ -85,7 +85,6 @@ use PHPMailer\PHPMailer\Exception;
 
 <?php require '../inc/header.php'; ?>
 
-    <meta name="description" content="">
 	<title>Contact</title>
 
 </head>

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Kévin Ricou 31 ans développeur web à Toulouse en recherche de poste. Apprenez en plus sur moi grace à mon site. Vous y découvrirez mes compétences et mes réalisations. Si mon profil vous intéresse n'hesitez pas à me contacter!">
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Special+Elite+Neucha+Architects+Daughter+Audiowide&display=swap" rel="stylesheet">
