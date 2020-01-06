@@ -85,6 +85,7 @@ use PHPMailer\PHPMailer\Exception;
 
 <?php require '../inc/header.php'; ?>
 
+    <meta name="description" content="">
 	<title>Contact</title>
 
 </head>
@@ -98,7 +99,7 @@ use PHPMailer\PHPMailer\Exception;
     		<h1>Me contacter</h1>
     		<div class="text">
                 <p>Mon profil vous interesse? Alors n'hesitez pas à me contacter via ce formulaire.</p>
-                <p>Si vous préférez vous pouvez également me contacter par telephonne au <a href="tel:+330688069281">06-88-06-92-81</a> ainsi que par mail en cliquant <a href="mailto:ricoukevin@yahoo.fr">ici</a></p>      
+                <p>Si vous préférez, vous pouvez également me contacter par telephonne au <a href="tel:+330688069281">06-88-06-92-81</a> ainsi que par mail en cliquant <a href="mailto:ricoukevin@yahoo.fr">ici</a></p>      
             </div>	
 
         <?php if (isset($success)) : ?>

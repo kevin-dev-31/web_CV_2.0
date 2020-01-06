@@ -1,5 +1,6 @@
 <?php require '../inc/header.php'; ?>
-
+	
+	<meta name="description" content="">
 	<title>A propos de moi</title>
 </head>
 <body id="about">
@@ -12,11 +13,11 @@
 	    	<div class="first">
 				<div class="row">
 					<div class="col-lg-8 offset-lg-4 z">
-						<img src="../img/about/work.jpg" class="img-fluid" alt="">
+						<img src="../img/about/work.webp" class="img-fluid" alt="">
 						<h2>Qui suis-je?</h2>
-						<p>Moi c’est Kévin, j’ai 31 ans, je suis passionnée par les jeux vidéo, mes parents on acheter une séga master système quand j’avais 2 ans, depuis ce jours je n’ai jamais arrêté 😁 je suis mordu de rétro gaming, ce qui fait que je collectionne les consoles et les jeux (surtout séga et nintendo).
+						<p>Moi c’est Kévin, j’ai 31 ans, je suis passionné par les jeux vidéo. Mes parents on acheté une Séga Master Système quand j’avais 2 ans, depuis ce jour je n’ai jamais arrêté 😁 Je suis mordu de rétro gaming. C'est pourquoi je collectionne des consoles et des jeux (surtout Séga et Nintendo).
 						<br>
-						Ah, je suis aussi fada de sport de glisse aussi, je fais du surf du snow et du bmx, ca permet aussi de coupée avec les écrans de temps en temps ^^
+						Ah, je suis aussi fada de sport de glisse. Je fais du surf, du snow et du bmx, ce qui me permet aussi de couper avec les écrans de temps en temps 😜.
 						</p>
 					</div>
 				</div>    		
@@ -24,7 +25,7 @@
 		
 	    	<div class="row second">
 	    		<div class="col-lg-6 img">
-	    			<img src="../img/about/snow.jpg" class="img-fluid" alt="">
+	    			<img src="../img/about/snow.webp" class="img-fluid" alt="">
 	    		</div>
 	    		<div class="col-lg-6 career">
 					<h2>Mon parcours</h2>
@@ -43,10 +44,10 @@
     				<div>
 	    				<h2>Formation</h2>
 						<p>
-							Tout d’abord autodidacte, j'ai intégré la formation de développeur web et web mobile chez WebForce3 Toulouse. A l’issue de ma formation j’ai eu la chance de pouvoir faire un stage de cinq semaines au sein de Verrywell digital, anciennement Lounce. Ce fut pour moi une très bonne expérience avec des activités très varier, ce qui ma aussi permis de découvrir le fonctionnement d’une agence web, c’était génial !
+							Tout d’abord autodidacte, j'ai intégré la formation de développeur web et web mobile chez WebForce3 Toulouse. A l’issue de ma formation j’ai eu la chance de pouvoir faire un stage de cinq semaines au sein de <a href="https://www.verywell.digital" target="blank">Verrywell digital</a>, anciennement Lounce. Ce fut pour moi une très bonne expérience avec des activités très variées, ce qui m'a aussi permis de découvrir le fonctionnement d’une agence web, c’était génial !
 						</p>
 						<p>
-							Vous pouvez télécharger mon CV ici.
+							Vous pouvez télécharger mon CV <a class="cv" href="../download/cv-kevin.ricou.pdf" target="blank"> ici</a>.
 						</p>
     				</div>
 					<hr>

@@ -44,9 +44,14 @@
 			</div>
 
 			<div class="ms-section" id="left2">	
-				<video autoplay muted loop id="imgAbout">
-				  <source src="img/original.mp4" type="video/mp4">
-				</video>
+				<div>
+					<div class="img1">
+						<img src="img/me.serious.webp" class="img-fluid" alt="Moi serieux">
+					</div>
+					<div class="img2">
+						<img src="img/me.forest.webp" class="img-fluid" alt="Moi décontracté">
+					</div>
+				</div>
 			</div>
 
 			<div class="ms-section" id="left3">
@@ -83,17 +88,17 @@
 						<div class="col-12 d-flex center">
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/html5.jpeg" alt="logo de HTML 5" class="img-fluid">
+									<img src="img/skills/html5.webp" alt="logo de HTML 5" class="img-fluid">
 								</figure>
 							</div>
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/css3.jpg" alt="logo de CSS 3" class="img-fluid">
+									<img src="img/skills/css3.webp" alt="logo de CSS 3" class="img-fluid">
 								</figure>
 							</div>
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/jquery.png" alt="logo de jQuery" class="img-fluid">
+									<img src="img/skills/jquery.webp" alt="logo de jQuery" class="img-fluid">
 								</figure>
 							</div>
 						</div>
@@ -101,17 +106,17 @@
 						<div class="col-12 d-flex center">
 							<div class="col-4 disp">
 								<figure class="img-competence ">
-									<img src="img/skills/php.png" alt="logo de PHP" class="img-fluid">
+									<img src="img/skills/php.webp" alt="logo de PHP" class="img-fluid">
 								</figure>
 							</div>
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/bootstrap.png" alt="logo de Bootstrap" class="img-fluid">
+									<img src="img/skills/bootstrap.webp" alt="logo de Bootstrap" class="img-fluid">
 								</figure>
 							</div>
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/wp.png" alt="logo de WordPress" class="img-fluid">
+									<img src="img/skills/wp.webp" alt="logo de WordPress" class="img-fluid">
 								</figure>
 							</div>
 						</div>
@@ -119,18 +124,18 @@
 						<div class="col-12 d-flex center">
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/github.jpg" alt="logo de GitHub" class="img-fluid">
+									<img src="img/skills/github.webp" alt="logo de GitHub" class="img-fluid">
 								</figure>
 							</div>
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/drupal.jpg" alt="logo de Drupal" class="img-fluid">
+									<img src="img/skills/drupal.webp" alt="logo de Drupal" class="img-fluid">
 								</figure>
 							</div>
 
 							<div class="col-4 disp">
 								<figure class="img-competence">
-									<img src="img/skills/ps.jpg" alt="logo de Photoshop" class="img-fluid">
+									<img src="img/skills/ps.webp" alt="logo de Photoshop" class="img-fluid">
 								</figure>
 							</div>
 						</div>

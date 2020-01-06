@@ -50,24 +50,6 @@ h2{
 }
 
 
-#index h1,#index h2,#index a{
-    color:#fff;
-    transition: 0.5s;
-}
-#index h1:hover,#index h2:hover,#index a:hover{
-    transition: 0.5s;
-    text-shadow: 2px 0 5px #3ad9e8 ;
-}
-
-#index h1{
-	font-size: 2em;	
-}
-#index h2{
-	font-size: 3.5em;
-	text-transform: uppercase;
-	font-weight: 600;
-}
-
 a{
 	text-decoration:none;
 }
@@ -87,6 +69,15 @@ a:hover{
 	margin: 5% 0 0 5%;
 }
 
+@media (max-width: 995px){
+  .indexLink{
+    text-align: center;
+  }
+  .indexLink img{
+  width: 30%;
+  margin: 5% 0;
+  }
+}
 
 
 /**********************************************
@@ -140,6 +131,22 @@ a:hover{
 *                 HOME PAGE                   *
 *                                             *
 **********************************************/
+#index h1,#index h2,#index a{
+    color:#fff;
+    transition: 0.5s;
+}
+#index h1:hover,#index h2:hover,#index a:hover{
+    transition: 0.5s;
+    text-shadow: 2px 0 5px #3ad9e8 ;
+}
+
+#index h1{
+  font-size: 2em; 
+}
+#index h2{
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
 #myVideo{
   position: fixed;
@@ -149,44 +156,26 @@ a:hover{
   min-height: 100%;
 }
 
-#left2{
-
-}
-@media (min-width: 768px){
-  #imgAbout{
-    display: none;
-  }
-  #left2{
-    background: url('img/moi.png');
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+#left2 .img2{
+  display: none;
 }
 
-#right2{
-
+#left2 .img1:hover + .img2{
+  display: block;
 }
-#left3{
-
+#left2 .img1:hover{
+  display: none;
 }
-#right3{
 
-}
 #left4{
-	background: url('img/setup.png');
+	background: url('img/setup.webp');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-#right4{
 
-}
-#left5{
-
-}
 #right5{
-	background: url('img/mug.png');
+	background: url('img/mug.webp');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -196,9 +185,9 @@ a:hover{
 	width: 20%;
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
   #right3 figure{
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -219,8 +208,8 @@ a:hover{
 	border: 1px outset #171717;
 }
 
-@media (max-width: 995px){
-  #left3,#left5,#right1,#right2,#right4{
+@media (max-width: 768px){
+  #index h2{
 /*    writing-mode: vertical-lr;
     text-orientation: upright;
 */    font-size: 0.6em
@@ -228,10 +217,10 @@ a:hover{
 }
 
 
-i{
+#index i{
   transform: rotateX(180deg);
 }
-i.last{
+#index  i.last{
   transform: rotateZ(180deg);
 }
 
@@ -274,6 +263,7 @@ i.last{
   left: -40%;
   margin-right: 30%;
   margin-bottom: -300px;
+  text-shadow: 0px 0px 20px #fff;
 }
 #about .second .img{
   padding: 0;
@@ -305,6 +295,10 @@ i.last{
   #about .first h2{
     text-align: center;
     margin-top: 5%;
+    margin-bottom: .5rem;
+  }
+  #about .second .margin{
+  margin-top: 0;
   }
   #about .second .career p{
   margin-left: 0;
@@ -423,6 +417,10 @@ i.last{
   margin: 0;
 }
 
+.modal-body p{
+  color: #000;
+}
+
 #portfolio * {
   z-index: 2;
 }
@@ -444,7 +442,7 @@ i.last{
 **********************************************/
 
 #contact{
-  background:linear-gradient(0deg, rgba(127,100,208,.5) 0%, rgba(232,156,24,.5) 46%),url('img/city.jpg');
+  background:linear-gradient(0deg, rgba(127,100,208,.5) 0%, rgba(232,156,24,.5) 46%),url('img/city.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

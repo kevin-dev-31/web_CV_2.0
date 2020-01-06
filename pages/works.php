@@ -1,5 +1,7 @@
 <?php require '../inc/header.php'; ?>
-<title>Portfolio</title>
+
+	<meta name="description" content="">
+	<title>Portfolio</title>
 </head>
 <body id="works">
 <main>
@@ -50,7 +52,7 @@
 						<img src="../img/portfolio/sofro/sofroLink.png" alt="Site de sofrologie"  class="img-fluid photo-portfolio">
 					</a>
 					<div class="portfolio-caption">
-						<h4>Site de sofrologie</h4>
+						<h4>Site de sophrologie</h4>
 						<p class="text-muted">Site wordpress</p>
 					</div>
 				</div>
@@ -64,7 +66,7 @@
 						<img src="../img/portfolio/shoes/shoesLink.png" alt="Site de vente de sneakers"  class="img-fluid photo-portfolio">
 					</a>
 					<div class="portfolio-caption">
-						<h4>Shoes wall</h4>
+						<h4>South West Store</h4>
 						<p class="text-muted">E-commerce</p>
 					</div>
 				</div>
@@ -108,7 +110,7 @@
 								<img src="../img/portfolio/meteo/meteo.png" alt="photo de l'application my météo">
 							</div>
 							
-							<p class="mt-5">----------------------  </p>
+							<p class="mt-5">My météo est une application android créée durant ma formation afin d'utiliser une api.</p>
 							<ul class="list-inline">
 								<li>
 									<p class="text-muted">Client: WF3 projet</p>
@@ -146,7 +148,9 @@
 							<div>
 								<img src="../img/portfolio/rkdev/rkdev.png" alt="photo du site RK-CompagnyWEB">
 							</div>
-							<p class="mt-5">--------------------------</p>
+								<p class="mt-5">
+									RK-CompanyWEB etait mon premier site CV, j'ai décidé de recréer un nouveau site afin de le rendre plus professionnel.
+								</p>
 							<ul class="list-inline">
 								<li>
 									<p class="text-muted">Client: WF3 projet</p>
@@ -185,7 +189,10 @@
 							<div>
 								<img src="../img/portfolio/sofro/sofro.png" alt="photo du site Elise Dautrey Sophrologue">
 							</div>
-							<p class="mt-5">------------------------ </p>
+							<p class="mt-5">
+								Une sophrologue m'a proposé de reprendre son site wix afin de le rendre plus professionnel et de lui donner plus de visibilité.
+								Dans le but de lui permettre d'ajouter du contenu, j'ai choisis de lui faire son site sur WordPress.
+							</p>
 							<ul class="list-inline">
 								<li>
 									<p class="text-muted">Client: Elise DAUTREY</p>
@@ -223,7 +230,10 @@
 							<div>
 								<img src="../img/portfolio/shoes/shoes.png" alt="photo du site South West Store">
 							</div>
-							<p class="mt-5">---------------------</p>
+							<p class="mt-5">
+								Ce site à été crée pour le projet de soutenance, il est codé sous symfony. <br>
+								C'est un site de e-comerce de sneakers de collection.
+							</p>
 							<ul class="list-inline">
 								
 								<li>
@@ -262,7 +272,11 @@
 							<div>
 								<img src="../img/portfolio/gamer/gamer.png" alt="photo du site Au vieux gamer">
 							</div>
-							<p class="mt-5">--------------------------------------------.</p>
+							<p class="mt-5">
+								Au vieux gamer est un site de jeux vidéos codé en dur qui se destine aux collectionneurs. Il permet à l’utilisateur d’enregistrer en base de données une collection de jeux ainsi que de consoles. <br> 
+								Il posède également une page de jeux en ligne qui permet à l'utilisateur de pouvoir jouée à de nombreux jeux. <br>
+								Le site est en cours de construction.
+							</p>
 							<ul class="list-inline">
 								
 								<li>
