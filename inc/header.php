@@ -21,6 +21,6 @@
 
   	<!-- mon style -->
 	<link rel="icon" type="image/png" href="../img/fav.png">
-	<link rel="stylesheet" type="text/css" href="../style.css">	
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">	
 
 		

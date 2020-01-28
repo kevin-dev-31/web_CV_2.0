@@ -160,22 +160,23 @@ a:hover{
   display: none;
 }
 
-#left2 .img1:hover + .img2{
-  display: block;
-}
 #left2 .img1:hover{
   display: none;
 }
 
+#left2 .img1:hover + .img2{
+  display: block;
+}
+
 #left4{
-	background: url('img/setup.webp');
+	background: url('../img/setup.png');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 #right5{
-	background: url('img/mug.webp');
+	background: url('../img/call.png');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -442,7 +443,7 @@ a:hover{
 **********************************************/
 
 #contact{
-  background:linear-gradient(0deg, rgba(127,100,208,.5) 0%, rgba(232,156,24,.5) 46%),url('img/city.webp');
+  background:linear-gradient(0deg, rgba(127,100,208,.5) 0%, rgba(232,156,24,.5) 46%),url('../img/city.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -465,12 +466,26 @@ a:hover{
   color: #0056b3;
 }
 
+#contact .msgForm{
+  display: grid;
+}
+
 #contact .succes{
-	background: green;
+	background: #8db9ed;
+  display: inline;
+  padding: 1%;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 3%;
 }
 
 #contact .fail{
-	background: red;
+	background: #d17511;
+  display: inline;
+  padding: 1%;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 3%;
 }
 
 #contact form{
@@ -486,6 +501,7 @@ a:hover{
 	font-family: 'Roboto Mono', cursive;
 	text-transform: uppercase;
 	font-weight: bold;
+	color: #fff;
 }
 
 #contact input::placeholder, #contact textarea::placeholder{

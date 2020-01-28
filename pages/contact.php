@@ -40,16 +40,16 @@ use PHPMailer\PHPMailer\Exception;
                         'allow_self_signed' => true
                     ]
                 ];
-                // $mail->SMTPDebug = 3; //mode debug si > 2
+                //$mail->SMTPDebug = 3; //mode debug si > 2
                 $mail->CharSet = 'UTF-8';
                 $mail->isSMTP(); //connexion directe à un serveur SMTP
                 $mail->isHTML(true); //mail au format HTML
                 $mail->Host = 'smtp.gmail.com'; //serveur SMTP
                 $mail->SMTPAuth = true; //serveur sécurisé
-                $mail->Port = 465; //port utilisé par le serveur
-                $mail->SMTPSecure = 'ssl'; //certificat SSL
-                $mail->Username = 'ricoukevin07@gmail.com'; //login
-                $mail->Password = 'citroenc4'; //mot de passe
+                $mail->Port = 587; //port utilisé par le serveur
+                //$mail->SMTPSecure = 'ssl'; //certificat SSL
+                $mail->Username = 'ricou.k.mail@gmail.com'; //login
+                $mail->Password = 'moment@en23duo'; //mot de passe
                 $mail->AddAddress('ricoukevin@yahoo.fr'); //destinataire
                 $mail->SetFrom($safe['email']); //expediteur
                 $mail->Subject = 'Contact site CV'; //sujet
@@ -77,7 +77,7 @@ use PHPMailer\PHPMailer\Exception;
                 // envoi du message
                 if ($mail->Send()) {
                     $success = 'Votre message à été envoyer, nous vous répondrons dès que possible ';
-                } else $errors = 'Une erreur est survenue, veuillez réessayer plus tard ';
+                } else $error = 'Une erreur est survenue, veuillez réessayer plus tard ';
                 
             } // count($errors)         
         } // if !empty($_POST)
@@ -101,11 +101,13 @@ use PHPMailer\PHPMailer\Exception;
                 <p>Si vous préférez, vous pouvez également me contacter par telephonne au <a href="tel:+330688069281">06-88-06-92-81</a> ainsi que par mail en cliquant <a href="mailto:ricoukevin@yahoo.fr">ici</a></p>      
             </div>	
 
-        <?php if (isset($success)) : ?>
-            <p class="succes"><?= $success ?></p>
-        <?php elseif (isset($error)) : ?>           
-            <p class="fail"><?= $error ?></p>
-        <?php endif; ?>
+            <div class="msgForm">
+                <?php if (isset($success)) : ?>
+                    <p class="succes"><?= $success ?></p>
+                <?php elseif (isset($error)) : ?>           
+                    <p class="fail"><?= $error ?></p>
+                <?php endif; ?>
+            </div>
 
             <div class="form">
                 <form method="post" class="col-md-8">
@@ -144,27 +146,6 @@ use PHPMailer\PHPMailer\Exception;
 
 
     <?php require '../inc/footer.php'; ?>
-    <script type="text/javascript">
-        $(document).ready(function () {
-
-            $(".add-product").click(function () {
-
-                    if ('<?=$msg?>') { 
-                        Swal.fire({
-                            position: 'center',
-                            type: 'success',
-                            title: 'Article modifié',
-                            showConfirmButton: false,
-                            timer: 1500
-                        });
-                        
-                    }
-            });
-
-
-        });
-
-    </script>
 </body>
 </html>
 
