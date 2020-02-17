@@ -26,8 +26,24 @@
 						<p class="text-muted">Application météo</p>
 					</div>
 				</div>
+
 				<div class="col-md-4 col-sm-6 portfolio-item">
 					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="../img/portfolio/sofro/sofroLink.png" alt="Site de sofrologie"  class="img-fluid photo-portfolio">
+					</a>
+					<div class="portfolio-caption">
+						<h4>Site de sophrologie</h4>
+						<p class="text-muted">Site wordpress</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 portfolio-item">
+					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
 								<i class="fas fa-plus fa-3x"></i>
@@ -41,20 +57,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-4 col-sm-6 portfolio-item">
-					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-						<div class="portfolio-hover">
-							<div class="portfolio-hover-content">
-								<i class="fas fa-plus fa-3x"></i>
-							</div>
-						</div>
-						<img src="../img/portfolio/sofro/sofroLink.png" alt="Site de sofrologie"  class="img-fluid photo-portfolio">
-					</a>
-					<div class="portfolio-caption">
-						<h4>Site de sophrologie</h4>
-						<p class="text-muted">Site wordpress</p>
-					</div>
-				</div>
+
 				<div class="col-md-4 col-sm-6 portfolio-item">
 					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
 						<div class="portfolio-hover">
@@ -81,6 +84,34 @@
 					<div class="portfolio-caption">
 						<h4>Au vieux gamer</h4>
 						<p class="text-muted">Site de jeux</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 portfolio-item">
+					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="../img/portfolio/elisedautreysophrologie/elisedautreysophro.png" alt="Site Elise Dautrey sophrologie"  class="img-fluid photo-portfolio">
+					</a>
+					<div class="portfolio-caption">
+						<h4>Elise Dautrey sophrologie</h4>
+						<p class="text-muted">Site de sophrologie</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 portfolio-item">
+					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="../img/portfolio/medium/construction.png" alt="Site mediumelia"  class="img-fluid photo-portfolio">
+					</a>
+					<div class="portfolio-caption">
+						<h4>Médiumelia</h4>
+						<p class="text-muted">Site de voyance</p>
 					</div>
 				</div>
 			</div>
@@ -120,7 +151,7 @@
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
 							<i class="fas fa-times"></i>
-							Close Project</button>
+							Fermer</button>
 						</div>
 					</div>
 				</div>
@@ -128,8 +159,50 @@
 		</div>
 	</div>
 </div>
-<!-- Modal 2 My meteo -->
+
+<!-- Modal 2 Site de sofrologie-->
 <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container color_modal">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							<h2 class="text-uppercase">Elise Dautrey</h2>
+							<p class="item-intro text-muted">Site web de sophrologie</p>
+							<div>
+								<img src="../img/portfolio/sofro/sofro.png" alt="photo du site Elise Dautrey Sophrologue">
+							</div>
+							<p class="mt-5">
+								Création d'un site test pour une sophrologue.
+							</p>
+							<ul class="list-inline">
+								<li>
+									<p class="text-muted">Client: Elise DAUTREY</p>
+								</li>
+								<li>
+									<p class="text-muted">Category: Site web WordPress</p>
+								</li>
+							</ul>
+							<button class="btn btn-info" data-dismiss="modal" type="button">
+							<i class="fas fa-times"></i>
+							Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal 3 My meteo -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
@@ -161,7 +234,7 @@
 							
 							<button class="btn btn-info" data-dismiss="modal" type="button">
 							<i class="fas fa-times"></i>
-							Close Project</button>
+							Fermer</button>
 						</div>
 					</div>
 				</div>
@@ -169,47 +242,9 @@
 		</div>
 	</div>
 </div>
-<!-- Modal 3 Site de sofrologie-->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-dialog modal-xl">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container color_modal">
-				<div class="row">
-					<div class="col-lg-8 mx-auto">
-						<div class="modal-body">
-							<!-- Project Details Go Here -->
-							<h2 class="text-uppercase">Elise Dautrey Sophrologue</h2>
-							<p class="item-intro text-muted">Site web de sophrologie</p>
-							<div>
-								<img src="../img/portfolio/sofro/sofro.png" alt="photo du site Elise Dautrey Sophrologue">
-							</div>
-							<p class="mt-5">
-								Une sophrologue m'a proposé de reprendre son site wix afin de le rendre plus professionnel et de lui donner plus de visibilité.
-								Dans le but de lui permettre d'ajouter du contenu, j'ai choisis de lui faire son site sur WordPress.
-							</p>
-							<ul class="list-inline">
-								<li>
-									<p class="text-muted">Client: Elise DAUTREY</p>
-								</li>
-								<li>
-									<p class="text-muted">Category: Site web WordPress</p>
-								</li>
-							</ul>
-							<button class="btn btn-info" data-dismiss="modal" type="button">
-							<i class="fas fa-times"></i>
-							Close Project</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+
+
+
 <!-- Modal 4 Shoes wall -->
 <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-xl">
@@ -244,7 +279,7 @@
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
 							<i class="fas fa-times"></i>
-							Close Project</button>
+							Fermer</button>
 						</div>
 					</div>
 				</div>
@@ -287,7 +322,90 @@
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
 							<i class="fas fa-times"></i>
-							Close Project</button>
+							Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal 6 Site de sofrologie-->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container color_modal">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							<h2 class="text-uppercase">Elise Dautrey Sophrologue</h2>
+							<p class="item-intro text-muted">Site web de sophrologie</p>
+							<div>
+								<img src="../img/portfolio/elisedautreysophrologie/elisedautreysophrologie.png" alt="photo du site Elise Dautrey Sophrologue">
+							</div>
+							<p class="mt-5">
+								Une sophrologue m'a demandé de lui crée un site web, dans le but de lui apporter une visibilité sur internet. <br>
+								Afin de lui permettre d'ajouter du contenu, j'ai choisi de réaliser le site via WordPress, et de lui donner une formation. <br>
+								Dans l'attente de son numéro de SIRET, le site sera en ligne début Mars.
+							</p>
+							<ul class="list-inline">
+								<li>
+									<p class="text-muted">Client: Elise DAUTREY</p>
+								</li>
+								<li>
+									<p class="text-muted">Category: Site web WordPress</p>
+								</li>
+							</ul>
+							<button class="btn btn-info" data-dismiss="modal" type="button">
+							<i class="fas fa-times"></i>
+							Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal 7 Site de voyance-->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container color_modal">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							<h2 class="text-uppercase">Médiumelia</h2>
+							<p class="item-intro text-muted">Site web voyance</p>
+							<div>
+								<img src="../img/portfolio/medium/enconstruction.png" alt="photo du site Elise Dautrey Sophrologue">
+							</div>
+							<p class="mt-5">
+								Une voyante médium m'a demandé de lui crée un site web, ainsi qu'une image de marque. <br>
+								BUILD MODE ACTIVATE.
+							</p>
+							<ul class="list-inline">
+								<li>
+									<p class="text-muted">Client: Amélia</p>
+								</li>
+								<li>
+									<p class="text-muted">Category: Site web WordPress</p>
+								</li>
+							</ul>
+							<button class="btn btn-info" data-dismiss="modal" type="button">
+							<i class="fas fa-times"></i>
+							Fermer</button>
 						</div>
 					</div>
 				</div>
