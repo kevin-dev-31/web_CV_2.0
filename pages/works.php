@@ -134,7 +134,7 @@
 						<div class="modal-body">
 							<!-- Project Details-->
 							<h2 class="text-uppercase">My météo</h2>
-							<p class="item-intro text-muted">Application météo</p>
+							<p class="item-intro text-muted">Application météo <a href="https://youtu.be/hrP_w2I48-k" target="blank">- Voir une démo -</a></p>
 							
 							<div>
 								<img src="../img/portfolio/meteo/meteo.png" alt="photo de l'application my météo">
@@ -146,7 +146,7 @@
 									<p class="text-muted">Client: WF3 projet</p>
 								</li>
 								<li>
-									<p class="text-muted">Category: Application mobile</p>
+									<p class="text-muted">Catégorie: Application mobile</p>
 								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
@@ -175,7 +175,7 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">Elise Dautrey</h2>
-							<p class="item-intro text-muted">Site web de sophrologie</p>
+							<p class="item-intro text-muted">Site web de sophrologie <a href="https://youtu.be/rWixG3RF9qc" target="blank">- Voir une démo -</a></p>
 							<div>
 								<img src="../img/portfolio/sofro/sofro.png" alt="photo du site Elise Dautrey Sophrologue">
 							</div>
@@ -187,7 +187,7 @@
 									<p class="text-muted">Client: Elise DAUTREY</p>
 								</li>
 								<li>
-									<p class="text-muted">Category: Site web WordPress</p>
+									<p class="text-muted">Catégorie: Site web WordPress</p>
 								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
@@ -216,7 +216,7 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">RK-CompagnyWEB</h2>
-							<p class="item-intro text-muted">Mon premier site cv.</p>
+							<p class="item-intro text-muted">Mon premier site cv. <a href="https://youtu.be/UFMMDs-4T30" target="blank">- Voir une démo -</a></p>
 							<div>
 								<img src="../img/portfolio/rkdev/rkdev.png" alt="photo du site RK-CompagnyWEB">
 							</div>
@@ -228,7 +228,7 @@
 									<p class="text-muted">Client: WF3 projet</p>
 								</li>
 								<li>
-									<p class="text-muted">Category: Site web</p>
+									<p class="text-muted">Catégorie: Site web</p>
 								</li>
 							</ul>
 							
@@ -260,7 +260,7 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">South West Store</h2>
-							<p class="item-intro text-muted">Projet professionnel de soutenance.</p>
+							<p class="item-intro text-muted">Projet professionnel de soutenance. <a href="http://south-west-store.pratlong-estelle-site.fr/" target="blank">- Visiter le site -</a></p>
 							<div>
 								<img src="../img/portfolio/shoes/shoes.png" alt="photo du site South West Store">
 							</div>
@@ -274,7 +274,7 @@
 									<p class="text-muted">Client: Projet professionnel</p>
 								</li>
 								<li>
-									<p class="text-muted">Category: Site de e-comerce sous symfony</p>
+									<p class="text-muted">Catégorie: Site de e-comerce sous symfony</p>
 								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
@@ -302,13 +302,15 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">Au vieux gamer</h2>
-							<p class="item-intro text-muted">Site personnel de jeux vidéo.</p>
+							<p class="item-intro text-muted">Site personnel de jeux vidéo. <a href="https://auvieuxgamer.000webhostapp.com/index.html" target="blank">- Visiter le site -</a></p>
 							<div>
 								<img src="../img/portfolio/gamer/gamer.png" alt="photo du site Au vieux gamer">
 							</div>
 							<p class="mt-5">
 								Au vieux gamer est un site de jeux vidéos codé en dur qui se destine aux collectionneurs. Il permet à l’utilisateur d’enregistrer en base de données une collection de jeux ainsi que de consoles. <br> 
-								Il posède également une page de jeux en ligne qui permet à l'utilisateur de pouvoir jouée à de nombreux jeux. <br>
+								Il posède également une page de jeux en ligne qui permet à l'utilisateur de pouvoir jouée à de nombreux jeux.
+							</p>
+							<p class="text-danger">
 								Le site est en cours de construction.
 							</p>
 							<ul class="list-inline">
@@ -317,7 +319,7 @@
 									<p class="text-muted">Client: Projet personnel</p>
 								</li>
 								<li>
-									<p class="text-muted">Category: Site de jeux</p>
+									<p class="text-muted">Catégorie: Site de jeux</p>
 								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
@@ -345,7 +347,7 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">Elise Dautrey Sophrologue</h2>
-							<p class="item-intro text-muted">Site web de sophrologie</p>
+							<p class="item-intro text-muted">Site web de sophrologie <a href="https://elisedautrey-sophrologue.fr/" target="blank">- Visiter le site -</a></p>
 							<div>
 								<img src="../img/portfolio/elisedautreysophrologie/elisedautreysophrologie.png" alt="photo du site Elise Dautrey Sophrologue">
 							</div>
@@ -359,7 +361,7 @@
 									<p class="text-muted">Client: Elise DAUTREY</p>
 								</li>
 								<li>
-									<p class="text-muted">Category: Site web WordPress</p>
+									<p class="text-muted">Catégorie: Site web WordPress</p>
 								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
@@ -400,7 +402,7 @@
 									<p class="text-muted">Client: Amélia</p>
 								</li>
 								<li>
-									<p class="text-muted">Category: Site web WordPress</p>
+									<p class="text-muted">Catégorie: Site web WordPress</p>
 								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">
