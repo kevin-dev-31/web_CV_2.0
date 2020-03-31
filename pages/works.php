@@ -107,11 +107,25 @@
 								<i class="fas fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img src="../img/portfolio/medium/construction.png" alt="Site mediumelia"  class="img-fluid photo-portfolio">
+						<img src="../img/portfolio/medium/medium.png" alt="Site mediumelia"  class="img-fluid photo-portfolio">
 					</a>
 					<div class="portfolio-caption">
 						<h4>Médiumelia</h4>
 						<p class="text-muted">Site de voyance</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 portfolio-item">
+					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="../img/portfolio/collection/construction.png" alt="Site de collection de jeux"  class="img-fluid photo-portfolio">
+					</a>
+					<div class="portfolio-caption">
+						<h4>Site de collection</h4>
+						<p class="text-muted">Site de jeux video</p>
 					</div>
 				</div>
 			</div>
@@ -353,8 +367,7 @@
 							</div>
 							<p class="mt-5">
 								Une sophrologue m'a demandé de lui crée un site web, dans le but de lui apporter une visibilité sur internet. <br>
-								Afin de lui permettre d'ajouter du contenu, j'ai choisi de réaliser le site via WordPress, et de lui donner une formation. <br>
-								Dans l'attente de son numéro de SIRET, le site sera en ligne début Mars.
+								Afin de lui permettre d'ajouter du contenu, j'ai choisi de réaliser le site via WordPress, et de lui donner une formation.
 							</p>
 							<ul class="list-inline">
 								<li>
@@ -389,13 +402,12 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							<h2 class="text-uppercase">Médiumelia</h2>
-							<p class="item-intro text-muted">Site web voyance</p>
+							<p class="item-intro text-muted">Site web voyance <a href="http://mediumelia.fr/" target="blank">- Visiter le site -</a></p>
 							<div>
-								<img src="../img/portfolio/medium/enconstruction.png" alt="photo du site Elise Dautrey Sophrologue">
+								<img src="../img/portfolio/medium/mediumelia.png" alt="photo du site Médiumelia">
 							</div>
 							<p class="mt-5">
-								Une voyante médium m'a demandé de lui crée un site web, ainsi qu'une image de marque. <br>
-								BUILD MODE ACTIVATE.
+								Une voyante médium m'a demandé de lui crée un site vitrine.
 							</p>
 							<ul class="list-inline">
 								<li>
@@ -403,6 +415,46 @@
 								</li>
 								<li>
 									<p class="text-muted">Catégorie: Site web WordPress</p>
+								</li>
+							</ul>
+							<button class="btn btn-info" data-dismiss="modal" type="button">
+							<i class="fas fa-times"></i>
+							Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal 7 Site de collection-->
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container color_modal">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							<h2 class="text-uppercase"> La collection</h2>
+							<p class="item-intro text-muted">Site de collection de jeux vidéo <!-- <a href="#" target="blank">- Visiter le site -</a> --></p>
+							<div>
+								<img src="../img/portfolio/collection/enconstruction.png" alt="photo dde construction de site web">
+							</div>
+							<p class="mt-5">
+								J'ai décidé de refondre mon site de collection en utilisant Symfony 5.
+							</p>
+							<ul class="list-inline">
+								<li>
+									<p class="text-muted">Client: Moi-même</p>
+								</li>
+								<li>
+									<p class="text-muted">Catégorie: Site web sous Symfony 5</p>
 								</li>
 							</ul>
 							<button class="btn btn-info" data-dismiss="modal" type="button">

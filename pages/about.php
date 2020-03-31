@@ -43,7 +43,8 @@
     				<div>
 	    				<h2>Formation</h2>
 						<p>
-							Tout d’abord autodidacte, j'ai intégré la formation de développeur web et web mobile chez WebForce3 Toulouse. A l’issue de ma formation j’ai eu la chance de pouvoir faire un stage de cinq semaines au sein de <a href="https://www.verywell.digital" target="blank">Verrywell digital</a>, anciennement Lounce. Ce fut pour moi une très bonne expérience avec des activités très variées, ce qui m'a aussi permis de découvrir le fonctionnement d’une agence web, c’était génial !
+							Tout d’abord autodidacte, j'ai intégré la formation de développeur web et web mobile chez WebForce3 Toulouse. A l’issue de ma formation j’ai eu la chance de pouvoir faire un stage de cinq semaines au sein de <a href="https://www.verywell.digital" target="blank">Verrywell digital</a>, anciennement Lounce. Ce fut pour moi une très bonne expérience avec des activités très variées, ce qui m'a aussi permis de découvrir le fonctionnement d’une agence web, c’était génial ! </br>
+							Aujourd'hui, j'ai décidé de me tourner vers l'alternance avec <a href="https://apformation.com/le-contrat-professionnel/developpeur-web-en-contrat-pro.html" target="blank">AP Formation</a> afin de monter en compétence et d'acquérir de l'expérience.
 						</p>
 						<p>
 							Vous pouvez télécharger mon CV <a class="cv" href="../download/cv-kevin.ricou.pdf" target="blank"> ici</a>.
@@ -68,7 +69,12 @@
 					<div>
 						<h2>Objectif</h2>
 						<p>
-							Mon objectif pour l'avenir, intégrer une équipe dynamique, m’épanouir dans mon travail et apprendre chaque jour de nouvelles choses, ainsi que de continuer à jouer à Pokémon, sans aucune honte, mais ça, c'est une autre histoire!
+							En recherche d'alternance de "Concepteur
+							Développeur d'Applications" titre de niveau 6
+							(bac +3), je souhaite intégrer une équipe
+							dynamique, m'épanouir dans mon travail, et
+							continuer à apprendre de nouveaux langages
+							et outils, ainsi que de continuer à jouer à Pokémon, sans aucune honte, mais ça, c'est une autre histoire !
 						</p>
 					</div>
 				</div>

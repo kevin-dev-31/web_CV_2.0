@@ -39,7 +39,7 @@
 				<div class="cont">
 					<h2>ricou kévin</h2>
 					<div class="big">
-						<h1>Développeur web</h1>
+						<h1>Concepteur Développeur d’Applications</h1>
 					</div>
 				</div>			
 			</div>
